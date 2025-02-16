@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label><br/>
+        <input type="text" name="name" id="name" placeholder="enter name"><br/>
+        <label for="email">Email:</label><br/>
+        <input type="email" name="mail" id="email" placeholder="enter email id"><br/>
+        <label for="Phone">Phone:</label><br/>
+        <input type="tel" name="call" id="Phone" placeholder="enter mobile no."><br/>
+        <label for="file">Resume:</label>
+        <input type="file" name="file selection" id="file" value="Choose file">
+        <br/>
+        <label for="years">Experience(years):</label><br/>
+        <input type="number" name="counter" id="years" min="0" max="50"><br/>
+
+        <fieldset>
+            <legend>Skills</legend>
+            
+            <input type="checkbox" name="check" id="select"><br>
+            <label for="select">HTML</label><br/>
+            <input type="checkbox" name="check" id="select"><br>
+            <label for="select">CSS</label><br/>
+            <input type="checkbox" name="check" id="select"><br>
+            <label for="select">JavaScript</label><br/>
+        </fieldset><br/>
+        <label for="degree">Highest Education:</label><br/>
+        <select name="education" id="degree">
+            <option value="High School">High School</option>
+            <option value="Bachelor's">Bachelor's</option>
+            <option value="Master's">Master's</option>
+            <option value="PHD">PHD</option>
+        </select><br/>
+        <label for="time">Availability:</label><br/>
+        <input type="radio" name="tell" id="1"><br/>
+        <label for="1">Full Time</label><br/>
+        
+        <input type="radio" name="tell" id="1"><br/>
+        <label for="1">Part-Time</label><br/>
+
+        <label for="add">Add Your Preference:</label><br/>
+        <textarea name="preference" id="add"></textarea>
+    </form>
+</body>
+</html>
